@@ -61,6 +61,19 @@ class _VeriGondermeState extends State<VeriGonderme> {
                       ),
                     ],
                   ),
+                  Text("Bu sayfa tamamen statefull widget deneme sayfasıdır."),
+                  RaisedButton(
+                    onPressed: () {
+                      debugPrint("kitapliga gidis");
+                      Navigator.pushNamed(context, "/Home2");
+                    },
+                    child: Text(
+                      "Kitaplığa Git",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    color: Color(0xff23ACCC),
+                    elevation: 20,
+                  ),
                 ],
               ))),
     );

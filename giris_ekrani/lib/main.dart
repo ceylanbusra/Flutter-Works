@@ -5,6 +5,7 @@ import 'Screen/LoginScreen.dart';
 import 'Screen/VeriGonderme.dart';
 import 'Screen/eMailPassworld.dart';
 import 'Screen/home.dart';
+import 'Screen/home2.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -14,6 +15,7 @@ void main() {
       '/eMailPassworld': (context) => eMailPassworld(),
       '/Homee': (context) => Homee(),
       '/VeriGonderme': (context) => VeriGonderme(),
+      '/Home2': (context) => Home2(),
     },
     home: LoginScreen(),
     debugShowCheckedModeBanner: false,

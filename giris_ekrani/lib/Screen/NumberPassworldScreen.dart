@@ -70,7 +70,7 @@ class NumberPassworld extends StatelessWidget {
               child: RaisedButton(
                 onPressed: () {
                   debugPrint("Cep No giriş");
-                  Navigator.pushNamed(context, "/Homee");
+                  Navigator.pushNamed(context, "/VeriGonderme");
                 },
                 child: Text(
                   "Devam et",

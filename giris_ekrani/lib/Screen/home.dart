@@ -29,21 +29,25 @@ class Homee extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(top: 15, bottom: 15),
                 child: Text(
-                  "Home ",
+                  "E-mail ile Giriş ",
                   style: TextStyle(fontSize: 18, color: Color(0xff08005e)),
                 ),
               ),
               Column(
                 children: [
-                  TextFormField(
-                    keyboardType: TextInputType.number,
-                    textInputAction: TextInputAction.done,
-                    decoration: InputDecoration(
-                      hintText: "E mail",
-                      border: OutlineInputBorder(
-                          borderRadius: BorderRadius.all(Radius.circular(10))),
-                      filled: true,
-                      fillColor: Colors.white,
+                  Padding(
+                    padding: const EdgeInsets.all(10.0),
+                    child: TextFormField(
+                      keyboardType: TextInputType.emailAddress,
+                      textInputAction: TextInputAction.done,
+                      decoration: InputDecoration(
+                        hintText: "E mail",
+                        border: OutlineInputBorder(
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(10))),
+                        filled: true,
+                        fillColor: Colors.white,
+                      ),
                     ),
                   ),
                   Padding(

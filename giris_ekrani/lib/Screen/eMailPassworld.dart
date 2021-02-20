@@ -27,7 +27,7 @@ class eMailPassworld extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(top: 15, bottom: 15),
               child: Text(
-                "E Mail ile giriş ",
+                "E Mail ile girişş ",
                 style: TextStyle(fontSize: 18, color: Color(0xff08005e)),
               ),
             ),

@@ -71,7 +71,7 @@ class LoginScreen extends StatelessWidget {
                       child: RaisedButton(
                         onPressed: () {
                           debugPrint("Busra Ceylan");
-                          Navigator.pushNamed(context, "/eMailPassworld");
+                          Navigator.pushNamed(context, "/Homee");
                         },
                         child: Text("e posta ile oturum Açın"),
                         textColor: Colors.white,
