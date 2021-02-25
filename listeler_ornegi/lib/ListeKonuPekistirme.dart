@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class ListeKonuPekistirme extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    //Bu sayfa daha ilk deneme aşamasıydı.
     // TODO: implement build
     return Column(
       children: [
@@ -13,8 +14,8 @@ class ListeKonuPekistirme extends StatelessWidget {
             margin: EdgeInsets.all(10),
             elevation: 15,
             child: ListTile(
-              title: Text("Çünkü sen bir pizza değilsin"),
-              subtitle: Text("herkesi mutlu edemezsiiiin"),
+              title: Text("Geleceğe Yolculuk"),
+              subtitle: Text("gfsdfgsdg"),
               trailing: Icon(Icons.book),
             ),
           ),
@@ -27,7 +28,7 @@ class ListeKonuPekistirme extends StatelessWidget {
             elevation: 15,
             child: ListTile(
               title: Text("Ben Robot"),
-              subtitle: Text("sayin Büşra Ceylan"),
+              subtitle: Text(" Büşra Ceylan"),
               trailing: Icon(Icons.book),
             ),
           ),
@@ -40,7 +41,7 @@ class ListeKonuPekistirme extends StatelessWidget {
             elevation: 15,
             child: ListTile(
               title: Text("Sefiller"),
-              subtitle: Text("sayin Büşra Ceylan"),
+              subtitle: Text(" Büşra Ceylan"),
               trailing: Icon(Icons.book),
             ),
           ),
@@ -53,7 +54,7 @@ class ListeKonuPekistirme extends StatelessWidget {
             elevation: 15,
             child: ListTile(
               title: Text("Fareler ve insanlar"),
-              subtitle: Text("sayin Büşra Ceylan"),
+              subtitle: Text(" Büşra Ceylan"),
               trailing: Icon(Icons.book),
             ),
           ),
@@ -66,7 +67,7 @@ class ListeKonuPekistirme extends StatelessWidget {
             elevation: 15,
             child: ListTile(
               title: Text("Dünyanın sonuna yolculuk"),
-              subtitle: Text("sayin Büşra Ceylan"),
+              subtitle: Text(" Büşra Ceylan"),
               trailing: Icon(Icons.book),
             ),
           ),
@@ -79,7 +80,7 @@ class ListeKonuPekistirme extends StatelessWidget {
           height: MediaQuery.of(context).size.height * 0.07,
           child: RaisedButton(
             onPressed: () {
-              Navigator.pushNamed(context, "/ListView");
+              Navigator.pushNamed(context, "/ListKonu");
             },
             child: Text(
               "Kitaplığıma Ekle",

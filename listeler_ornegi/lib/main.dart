@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-
-import 'ListeKonuPekistirme.dart';
+import 'package:listeler_ornegi/ListKonu.dart';
 
 void main() {
   runApp(MaterialApp(
     routes: {
-      '/ListView': (context) => ListView(),
+      '/ListKonu': (context) => ListKonu(),
     },
     debugShowCheckedModeBanner: false,
     title: "Listeleri Öğrenme",
@@ -13,11 +12,11 @@ void main() {
     home: Scaffold(
       appBar: AppBar(
         title: Text(
-          "Sanal Kitaplık",
+          "Öğrenciler listesi",
           style: TextStyle(color: Colors.white),
         ),
       ),
-      body: ListeKonuPekistirme(),
+      body: ListKonu(),
     ),
   ));
 }
