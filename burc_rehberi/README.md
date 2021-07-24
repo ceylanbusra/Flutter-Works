@@ -1,6 +1,6 @@
 # burc_rehber_uygulamasi
 
-A new Flutter project.
+Tüm burcların listelenmesini sağlar ve her bir burcun da detay sayfalarına gidip ayrıntılı bilgi almayı sağlar.
 
 ## Getting Started
 
