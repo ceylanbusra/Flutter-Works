@@ -4,7 +4,11 @@ Tüm burcların listelenmesini sağlar ve her bir burcun da detay sayfalarına g
 Klasörleme yapısıyla oluşturulmuştur. Bunun yanında Palette Generator paketi kullanılarak baskın renge göre AppBar'ın renginin ayarlanması sağlanmıştır.
 
 ![anaSayfa_burc](https://user-images.githubusercontent.com/68326893/126875689-2e5f22b8-3750-404f-a9fc-b876d6bd2baa.png)
+
+
 ![boga_burc](https://user-images.githubusercontent.com/68326893/126875692-1d266605-c1c6-49b9-a004-74d50c04af10.png)
+
+
 ![kaydirma](https://user-images.githubusercontent.com/68326893/126875694-d6f0e309-5ad2-475a-8cc3-a46c53264248.png)
 
 
